@@ -1,0 +1,26 @@
+html, body {
+	background-color: #333;
+}
+
+h1 {
+	top: 30%;
+	left: 30%;
+	position: absolute;
+	font-size: 60px;
+	font-weight: 200;
+	background: linear-gradient(to right, #42ca52 20%, #65c7f7 40%, #0052d4 60%, #42ca52 80%);
+	background-size: 200% auto;
+	color: #fff;
+	background-clip: text;
+	text-fill-color: transparent;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-box-reflect: below -20px linear-gradient(transparent, rgba(172,235,171,0.2));
+	animation: animate 3s linear infinite;
+}
+
+@keyframes animate {
+	to {
+		background-position: 200% center;
+	}
+}
